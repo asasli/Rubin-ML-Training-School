@@ -17,6 +17,11 @@ scikit-learn
 git+https://github.com/applecider-ml/applecider
 git+https://github.com/asasli/luna
 
+# MCP servers (Day 2)
+anthropic>=2.6,<3
+mcp>=2.3,<3
+git+https://github.com/leonitousconforti/boom-mcp
+
 # Scientific Python and notebooks
 numpy
 pandas
