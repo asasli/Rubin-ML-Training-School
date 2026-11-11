@@ -1,0 +1,64 @@
+{
+  "columns": [
+    "suite",
+    "strategy",
+    "seed",
+    "cycle",
+    "split",
+    "metric",
+    "value",
+    "n_labeled",
+    "n_acquired_total"
+  ],
+  "cycles": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "dataset": "AstroMiNN historical active-learning validation replay",
+  "dataset_review_status": "teaching review; cross-suite protocol equivalence not fully audited",
+  "final_label_count": 4729,
+  "initial_label_count": 476,
+  "interpretation_note": "Within-suite comparisons share an experiment configuration. Matching recorded cycle-zero scores and labeling budgets do not alone establish cross-suite comparability. The alternate-L0 suite is intentionally distinct.",
+  "metrics": [
+    "balanced_accuracy",
+    "f1_macro"
+  ],
+  "not_included": [
+    "training images",
+    "candidate/object IDs",
+    "test metrics",
+    "checkpoints",
+    "per-class evaluation metrics",
+    "acquisition class counts"
+  ],
+  "origin": "Completed nine-cycle closed-loop experiments exported from frozen evaluation_history.json files",
+  "record_type": "recorded validation metrics; no model training in notebook",
+  "records": 1020,
+  "schema_version": 1,
+  "seeds": [
+    135,
+    246,
+    357
+  ],
+  "split": "validation",
+  "suites": [
+    "astrominn_closed_loop_warm_v1",
+    "astrominn_task11_advanced_acquisition_v1",
+    "astrominn_task12_bald_mc20_v1",
+    "astrominn_task13_tailor_pilot_v1",
+    "astrominn_task14_similar_facility_v1",
+    "astrominn_task15_direct_vreduce_v1",
+    "astrominn_task17_random_l0_v1",
+    "astrominn_task18_anchoral_v1"
+  ],
+  "trajectories": 51,
+  "validation_csv_sha256": "a4038acad2c0d5dd9c85a904c1687c8349ac1c20b5c97d76409d91222cf7ae47"
+}

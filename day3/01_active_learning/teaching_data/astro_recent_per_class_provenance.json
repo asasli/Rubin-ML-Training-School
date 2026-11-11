@@ -1,0 +1,32 @@
+{
+  "baseline_history_sha256": "a4038acad2c0d5dd9c85a904c1687c8349ac1c20b5c97d76409d91222cf7ae47",
+  "class_rows": 2550,
+  "classes": [
+    "AGN",
+    "TDE",
+    "SN I",
+    "SN II",
+    "CV"
+  ],
+  "cycles_per_run": 10,
+  "description": "Recorded, already-computed validation metrics at object level",
+  "excluded": [
+    "test data",
+    "object IDs",
+    "individual predictions",
+    "sample images",
+    "model checkpoints"
+  ],
+  "included": [
+    "object-level validation precision",
+    "recall",
+    "f1",
+    "support"
+  ],
+  "macro_f1_checked": 510,
+  "note": "Saved metrics were calculated during previous model evaluations; no inference performed.",
+  "runs": 51,
+  "schema": "astro_recent_object_class_validation_v1",
+  "source_digest_sha256": "937c2a0e371dd7b80b989adf9f08deff9dfe03be5f115c118c4412c09b73ac39",
+  "split": "validation"
+}

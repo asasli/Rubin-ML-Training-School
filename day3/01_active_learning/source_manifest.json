@@ -1,0 +1,20 @@
+{
+  "content": {
+    "01_active_learning_digits.ipynb": "e7b26bfa8e11b125d45194a41e311fb5f41e586bd59397d7a576c3b8fd38e858",
+    "02_applecider_astronomy_active_learning.ipynb": "83ab4f808b1117890e688de71aabce941a99a1d613a74f35f72e846cd42647b4",
+    "README.md": "1bcf1af4baa5c1e5b2ddeeff30b47ebeee81a523560692ca0784d3932d51b1eb",
+    "run_notebooks.py": "f5dbd50e248e0e6249b1c5cac46cbc869c192cb3f202fac04ac5355ddf470560",
+    "teaching_data/README.md": "30f6f7bc3ce0326874ac2861464e1872d3104a58a5e7b8585843db589068d1e6",
+    "teaching_data/astro_cycle2_overlap_by_seed.csv": "31b58a2075a2093a9af1a14d147502dde65d340d1ca02ebfd908302ea281fb44",
+    "teaching_data/astro_cycle2_overlap_mean.csv": "e6c0d7beaa7cedcf0e6c8e0da172e649c3faa8c2db919e02b84a439be4d58bb5",
+    "teaching_data/astro_cycle2_overlap_provenance.json": "7b330bb5d8355620ee298fc8fccbeaf061bb2c917e4a0176e38c85c7f45f6acc",
+    "teaching_data/astro_recent_per_class.csv": "be788b7ba1029c5ef2d0c5ac68b3c6e2b6faa3bb52f57899088619e107737303",
+    "teaching_data/astro_recent_per_class_provenance.json": "8cc3a269be03095a01a731987b81b01e5f0053c14a351bbbd48e0f2bc37d036e",
+    "teaching_data/astro_recent_provenance.json": "47dbe388ab9fed00b4079c062f0a5ae8a8c5575ffcd12cd962bffe7f099238d5",
+    "teaching_data/astro_recent_validation.csv": "a4038acad2c0d5dd9c85a904c1687c8349ac1c20b5c97d76409d91222cf7ae47"
+  },
+  "exported_folder": "day3/01_active_learning",
+  "research_data_note": "Only recorded validation summaries and aggregate acquisition overlaps are distributed; no raw observations, checkpoint files, object identifiers or test predictions.",
+  "source_commit": "0585b42d2346da4c729279c7374f5c2a1c1944dd",
+  "source_repository": "https://github.com/DimitrisKour/astro-transient-active-learning"
+}

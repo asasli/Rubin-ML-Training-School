@@ -1,0 +1,49 @@
+{
+  "schema": "astro_cycle2_selected_overlap_v1",
+  "comparison": "descriptive, same-seed selected-object overlap; cross-suite matching not fully audited",
+  "seeds": [
+    135,
+    246,
+    357
+  ],
+  "policies": [
+    {
+      "key": "entropy",
+      "suite": "astrominn_closed_loop_warm_v1",
+      "strategy": "entropy"
+    },
+    {
+      "key": "entropy_diversity",
+      "suite": "astrominn_closed_loop_warm_v1",
+      "strategy": "entropy_diversity"
+    },
+    {
+      "key": "badge",
+      "suite": "astrominn_task11_advanced_acquisition_v1",
+      "strategy": "badge"
+    },
+    {
+      "key": "bald",
+      "suite": "astrominn_task12_bald_mc20_v1",
+      "strategy": "bald"
+    },
+    {
+      "key": "tailor_diversity",
+      "suite": "astrominn_task13_tailor_pilot_v1",
+      "strategy": "tailor_diversity"
+    }
+  ],
+  "cycle": 2,
+  "batch_size": 473,
+  "objects_per_cumulative_selection": 946,
+  "round2": "objects selected specifically in acquisition cycle 2",
+  "cumulative": "union of selections in acquisition cycles 1 and 2; excludes initial L0",
+  "excluded": [
+    "selected object IDs",
+    "candidate IDs",
+    "candidate labels",
+    "test metrics",
+    "model weights",
+    "raw images"
+  ]
+}
